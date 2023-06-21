@@ -1,0 +1,76 @@
+:root {
+  --navy-blue: #2E2F42;
+  --iris-color: #4D5AE5;
+  --body-background: #E5E5E5;
+  --white-color: #FFFFFF;
+  --ocean-color: #404BBF;
+  --slate-color: #434455;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--navy-blue);
+  background-color: var(--body-background);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page-header {
+  background-color: var(--white-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--iris-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean-color);
+  text-decoration: underline;
+}
+
+.contact-link {
+  font-style: normal;
+  color: var(--slate-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean-color);
+}
+
+.title-container {
+  background-color: var(--navy-blue);
+}
+
+.page-title {
+  color: var(--white-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+}
+
+.order {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.order:hover,
+.order:focus {
+  background-color: var(--ocean-color);
+}
