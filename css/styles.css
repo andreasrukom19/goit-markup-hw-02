@@ -24,6 +24,7 @@ body {
 }
 
 .nav-list .nav-link {
+  color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -34,10 +35,14 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris-color);
 }
 
-.logo .logo-web {
-  color: var(--iris-color);
+.logo-studio {
+  color: var(--navy-blue);
 }
 
 .nav-link:hover,
@@ -45,12 +50,15 @@ body {
   color: var(--ocean-color);
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-list .contact-link {
   color: var(--slate-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .contact-link:hover,
@@ -67,11 +75,16 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .title-container .order-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--iris-color);
   color: var(--white-color);
   cursor: pointer;
@@ -83,6 +96,7 @@ body {
 }
 
 .similar-title {
+  color: var(--navy-blue);
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -91,16 +105,18 @@ body {
 
 .feature-text {
   color: var(--slate-color);
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .section-title {
   text-align: center;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   font-weight: 700;
+  color: var(--navy-blue);
 }
 
 .team-container {
@@ -117,14 +133,18 @@ body {
 
 .job-title {
   color: var(--slate-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .filter-list .filter-button {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: var(--iris-color);
+  background-color: var(--cloud-color);
 }
 
 .filter-button:hover,
@@ -154,10 +174,11 @@ body {
 }
 
 .page-footer .logo-studio {
-  color: var(--white-color);
+  color: var(--cloud-color);
 }
 
 .call-text {
   color: var(--cloud-color);
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
