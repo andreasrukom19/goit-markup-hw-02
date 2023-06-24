@@ -11,25 +11,23 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--navy-blue);
-  background-color: var(--body-background);
-  line-height: 1.5;
+  color: #434455;
+  background-color: var(--white-color);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
-.main-content {
-  background-color: var(--white-color);
-}
-
-.page-header {
-  background-color: var(--white-color);
+.nav-list .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -38,19 +36,21 @@ ul {
   text-transform: uppercase;
 }
 
-.text-blue {
+.logo .logo-web {
   color: var(--iris-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: var(--ocean-color);
-  text-decoration: underline;
 }
 
-.contact-link {
-  font-style: normal;
+.contacts-list .contact-link {
   color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .contact-link:hover,
@@ -62,7 +62,7 @@ ul {
   background-color: var(--navy-blue);
 }
 
-.page-title {
+.title-container .page-title {
   color: var(--white-color);
   text-align: center;
   font-weight: 700;
@@ -71,14 +71,14 @@ ul {
   letter-spacing: 1.12px;
 }
 
-.order {
+.title-container .order-button {
   background-color: var(--iris-color);
   color: var(--white-color);
   cursor: pointer;
 }
 
-.order:hover,
-.order:focus {
+.order-button:hover,
+.order-button:focus {
   background-color: var(--ocean-color);
 }
 
@@ -119,11 +119,41 @@ ul {
   color: var(--slate-color);
 }
 
+.filter-list .filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--iris-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--ocean-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.developments-list .development-title {
+  color: var(--navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.developments-list .developments-description {
+  color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .page-footer {
   background-color: var(--navy-blue);
 }
 
-.page-footer .logo {
+.page-footer .logo-studio {
   color: var(--white-color);
 }
 
